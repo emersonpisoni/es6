@@ -23,3 +23,15 @@ But the language itself was not designed for:
 - large systems
 - modular architecture
 - complex software
+
+Objects before EC6:
+
+```js
+function Person(name) {
+  this.name = name;
+}
+
+Person.prototype.sayHi = function () {
+  console.log("Hi " + this.name);
+};
+```
