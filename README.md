@@ -1,10 +1,10 @@
 # ES6
-POC about ecma script 6
 
 ## What is Ecma Script?
 
 ECMAScript is a scripting language specification on which JavaScript is based. 
-Ecma International is in charge of standardizing ECMAScript.
+
+It is standardized by Ecma International in the document ECMA-262.
 
 ## What did we have?
 
@@ -14,7 +14,9 @@ It was created in 1995 for:
 
 - form validation
 - simple browser scripts
-- Then it suddenly became:
+
+Then it suddenly became:
+
 - a backend language (Node.js)
 - the foundation of huge web apps (Google, Facebook, Netflix)
 
@@ -108,3 +110,15 @@ class User {
 ```js
 import { sum } from "./math.js";
 ```
+
+#### ES6 is not “just a version” — it was a turning point
+
+Before ES6:
+
+- JavaScript = a browser scripting language
+
+After ES6:
+
+- JavaScript = a full software platform
+
+Everything modern — React, Node, mobile apps, cloud services — depends on ES6.
