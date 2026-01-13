@@ -35,3 +35,49 @@ Person.prototype.sayHi = function () {
   console.log("Hi " + this.name);
 };
 ```
+
+This works, but it is:
+
+- verbose
+- fragile
+- hard to read
+- error-prone
+
+By 2014, JavaScript had become:
+
+- an application platform
+- not just a scripting language
+
+But its syntax still looked like it was made for small scripts.
+
+So ES6 was designed to answer one question:
+
+“How do we turn JavaScript into a real software-engineering language?”
+
+Meaning:
+
+- safer
+- more predictable
+- easier to scale
+- easier to maintain
+- better for teams
+
+### It introduced four modern foundations.
+
+#### #1 Variable Scope
+
+```js
+var x = 10;
+if (true) {
+  var x = 20;
+}
+
+console.log(x);
+
+let z = 10;
+if (true) {
+  let z = 20;
+}
+
+console.log(z);
+```
