@@ -81,3 +81,9 @@ if (true) {
 
 console.log(z);
 ```
+
+#### #2 Functional programming style
+
+```js
+const double = x => x * 2;
+```
