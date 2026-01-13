@@ -97,3 +97,14 @@ class User {
   }
 }
 ```
+
+#### #4 Modules
+
+```html
+<script src="a.js"></script>
+<script src="b.js"></script>
+```
+
+```js
+import { sum } from "./math.js";
+```
