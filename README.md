@@ -87,3 +87,13 @@ console.log(z);
 ```js
 const double = x => x * 2;
 ```
+
+#### #3 Real object-oriented syntax
+
+```js
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+}
+```
